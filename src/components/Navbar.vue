@@ -2,18 +2,19 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
-                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                <!--brand image-->
+                <h1>Brand</h1>
             </a>
-
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            <a role="button" class="navbar-burger burger" :class="{'is-active': isActive}" aria-label="menu"
+               aria-expanded="false"
+               v-on:click="isActive = !isActive"
                data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu" :class="{'is-active': isActive}">
             <div class="navbar-start">
                 <a class="navbar-item">
                     Home
@@ -62,3 +63,13 @@
     </nav>
 
 </template>
+<script>
+    export default {
+        name: 'Navbar',
+        data() {
+            return {
+                isActive: false
+            }
+        }
+    }
+</script>
