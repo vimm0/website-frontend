@@ -15,15 +15,17 @@
             </a>
         </div>
         <div id="navbarBasicExample" class="navbar-menu" :class="{'is-active': isActive}">
-            <div class="navbar-start">
+            <div class="navbar-end">
                 <a class="navbar-item">
                     Home
                 </a>
 
                 <a class="navbar-item">
-                    Documentation
+                    Gallery
                 </a>
-
+                <a class="navbar-item">
+                    Contact
+                </a>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
                         More
@@ -34,34 +36,34 @@
                             About
                         </a>
                         <a class="navbar-item">
-                            Jobs
+                            Notice
                         </a>
+
                         <a class="navbar-item">
-                            Contact
+                            Research
                         </a>
                         <hr class="navbar-divider">
                         <a class="navbar-item">
-                            Report an issue
+                            Admission
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a class="button is-primary">
-                            <strong>Sign up</strong>
-                        </a>
-                        <a class="button is-light">
-                            Log in
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <!--<div class="navbar-end">-->
+            <!--<div class="navbar-item">-->
+            <!--<div class="buttons">-->
+            <!--<a class="button is-primary">-->
+            <!--<strong>Sign up</strong>-->
+            <!--</a>-->
+            <!--<a class="button is-light">-->
+            <!--Log in-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
         </div>
     </nav>
-
 </template>
 <script>
     export default {
@@ -73,3 +75,8 @@
         }
     }
 </script>
+<style lang="scss">
+    .navbar-end {
+        padding-right: 3.2rem;
+    }
+</style>
