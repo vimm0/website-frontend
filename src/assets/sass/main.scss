@@ -1,2 +1,16 @@
 // src/assets/sass/main.scss
-@import '~bulma/bulma'
+@import '~bulma/bulma';
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.pt-1 {
+  padding-top: 1rem;
+}
+
+//navbar
+a.navbar-custom-item:hover{
+    border-bottom: #3273dc solid .1rem;
+    background-color: #fafafa;
+    color: #3273dc;
+}

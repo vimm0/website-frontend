@@ -16,14 +16,14 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu" :class="{'is-active': isActive}">
             <div class="navbar-end">
-                <a class="navbar-item">
+                <a class="navbar-item navbar-custom-item">
                     Home
                 </a>
 
-                <a class="navbar-item">
+                <a class="navbar-item navbar-custom-item">
                     Gallery
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item navbar-custom-item">
                     Contact
                 </a>
                 <div class="navbar-item has-dropdown is-hoverable">

@@ -25,23 +25,78 @@
                     </svg>
                 </a>
             </div>
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <div class="card">
+                            <div class="card-content has-text-white-ter has-text-centered" style="background:#4886ff;box-shadow: 0 3px 15px rgba(0,0,0,0.2);">
+                                <!--<img src="assets/slide/slide-bottom-01.png" alt="" class="btm-item-icon"-->
+                                     <!--style="vertical-align: middle;height: 120px;width: 90px;padding-bottom: 30px;">-->
+                                <p class="is-size-4 has-text-weight-semibold">Professional Teachers</p>
+                                <div class="content is-size-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis
+                                    mauris.
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    <br>
+                                    <a class="mt-1 is-size-5 is-uppercase has-text-white-ter">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                       <div class="card">
+                            <div class="card-content has-text-white-ter has-text-centered" style="background:#b5d56a;box-shadow: 0 3px 15px rgba(0,0,0,0.2);">
+                                <!--<img src="assets/slide/slide-bottom-01.png" alt="" class="btm-item-icon"-->
+                                     <!--style="vertical-align: middle;height: 120px;width: 90px;padding-bottom: 30px;">-->
+                                <p class="is-size-4 has-text-weight-semibold">Learn Anywhere Online</p>
+                                <div class="content is-size-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis
+                                    mauris.
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    <br>
+                                    <a class="mt-1 is-size-5 is-uppercase has-text-white-ter">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-third">
+                         <div class="card">
+                            <div class="card-content has-text-white-ter has-text-centered" style="background:#ff6f6f;box-shadow: 0 3px 15px rgba(0,0,0,0.2);">
+                                <!--<img src="assets/slide/slide-bottom-01.png" alt="" class="btm-item-icon"-->
+                                     <!--style="vertical-align: middle;height: 120px;width: 90px;padding-bottom: 30px;">-->
+                                <p class="is-size-4 has-text-weight-semibold">Graduation Certificate</p>
+                                <div class="content is-size-7">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis
+                                    mauris.
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                    <br>
+                                    <a class="mt-1 is-size-5 is-uppercase has-text-white-ter">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container">
-            <p class="is-size-3 has-text-centered">Sed quis ligula efficitur, convallis nisi ultricies, varius felis. Ut
-                bibendum, sapien ac tristique venenatis, tellus sem tempor arcu, faucibus commodo ante tellus sed
-                justo.</p>
-            <p class="is-size-6 has-text-centered">Ut bibendum, sapien ac tristique venenatis, tellus sem tempor arcu,
-                faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at, gravida eget erat.
-                Morbi
-                feugiat vel lorem eget malesuada. Curabitur eget vulputate risus. Phasellus faucibus sagittis efficitur.
-                Pellentesque faucibus libero in nibh elementum elementum. Nullam ultricies tellus eget purus feugiat,
-                vitae
-                posuere velit accumsan. Nunc placerat venenatis ullamcorper. Ut imperdiet imperdiet velit. In odio sem,
-                placerat non mattis at, aliquet sed velit. Maecenas bibendum neque vitae lorem laoreet, sed ornare diam
-                suscipit. Aliquam erat volutpat. Cras malesuada nunc et tincidunt accumsan. Quisque consequat sit amet
-                odio
-                sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan. Phasellus sed
-                pellentesque turpis.</p>
+            <!--<p class="is-size-3 has-text-centered">Sed quis ligula efficitur, convallis nisi ultricies, varius felis. Ut-->
+            <!--bibendum, sapien ac tristique venenatis, tellus sem tempor arcu, faucibus commodo ante tellus sed-->
+            <!--justo.</p>-->
+            <!--<p class="is-size-6 has-text-centered">Ut bibendum, sapien ac tristique venenatis, tellus sem tempor arcu,-->
+            <!--faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at, gravida eget erat.-->
+            <!--Morbi-->
+            <!--feugiat vel lorem eget malesuada. Curabitur eget vulputate risus. Phasellus faucibus sagittis efficitur.-->
+            <!--Pellentesque faucibus libero in nibh elementum elementum. Nullam ultricies tellus eget purus feugiat,-->
+            <!--vitae-->
+            <!--posuere velit accumsan. Nunc placerat venenatis ullamcorper. Ut imperdiet imperdiet velit. In odio sem,-->
+            <!--placerat non mattis at, aliquet sed velit. Maecenas bibendum neque vitae lorem laoreet, sed ornare diam-->
+            <!--suscipit. Aliquam erat volutpat. Cras malesuada nunc et tincidunt accumsan. Quisque consequat sit amet-->
+            <!--odio-->
+            <!--sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan. Phasellus sed-->
+            <!--pellentesque turpis.</p>-->
         </div>
     </div>
 </template>
@@ -97,5 +152,10 @@
 
     svg path {
         fill: #fff;
+    }
+
+    .content-card {
+        position: absolute;
+        top: -3rem;
     }
 </style>
