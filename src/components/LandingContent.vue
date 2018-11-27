@@ -1,6 +1,6 @@
 <template>
     <div class="landing-content">
-        <div class="image-container">
+        <div class="image-container" style="margin-bottom:17.8rem">
             <img alt="Vue logo" src="../assets/school-banner.jpg">
             <p class="title-text-over is-size-1 has-text-white-ter has-text-weight-semibold">Lorem ipsum elit.</p>
             <p class="content-text-over is-size-6 has-text-white-ter">Morbi tristique massa nulla, nec hendrerit quam
@@ -82,27 +82,25 @@
             </div>
         </div>
         <div class="container">
-            <!--<p class="is-size-3 has-text-centered">Sed quis ligula efficitur, convallis nisi ultricies, varius felis. Ut-->
-            <!--bibendum, sapien ac tristique venenatis, tellus sem tempor arcu, faucibus commodo ante tellus sed-->
-            <!--justo.</p>-->
-            <!--<p class="is-size-6 has-text-centered">Ut bibendum, sapien ac tristique venenatis, tellus sem tempor arcu,-->
-            <!--faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at, gravida eget erat.-->
-            <!--Morbi-->
-            <!--feugiat vel lorem eget malesuada. Curabitur eget vulputate risus. Phasellus faucibus sagittis efficitur.-->
-            <!--Pellentesque faucibus libero in nibh elementum elementum. Nullam ultricies tellus eget purus feugiat,-->
-            <!--vitae-->
-            <!--posuere velit accumsan. Nunc placerat venenatis ullamcorper. Ut imperdiet imperdiet velit. In odio sem,-->
-            <!--placerat non mattis at, aliquet sed velit. Maecenas bibendum neque vitae lorem laoreet, sed ornare diam-->
-            <!--suscipit. Aliquam erat volutpat. Cras malesuada nunc et tincidunt accumsan. Quisque consequat sit amet-->
-            <!--odio-->
-            <!--sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan. Phasellus sed-->
-            <!--pellentesque turpis.</p>-->
+            <p class="is-size-3 has-text-centered">Sed quis ligula efficitur, varius felis.
+                Uttellus sem tempor arcu, faucibus commodo ante tellus sed justo.</p>
+            <p class="is-size-6 has-text-centered mt-1">Ut bibendum, sapien ac tristique venenatis, tellus sem tempor arcu,
+                faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at, gravida eget erat.
+                Morbi
+                feugiat vel lorem eget malesuada. Curabitur eget vulputate risus. Phasellus faucibus sagittis efficitur.
+                Pellentesque faucibus libero in nibh elementum elementum. Nullam ultricies tellus eget purus feugiat,
+                vitae
+                posuere velit accumsan. Nunc placerat venenatis ullamcorper. Ut imperdiet imperdiet velit. In odio sem,
+                placerat non mattis at, aliquet sed velit. Maecenas bibendum neque vitae lorem laoreet, sed ornare diam
+                suscipit. Aliquam erat volutpat. Cras malesuada nunc et tincidunt accumsan. Quisque consequat sit amet
+                odio
+                sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan. Phasellus sed
+                pellentesque turpis.</p>
         </div>
-
     </div>
 </template>
 <script>
- export default {
+    export default {
         name: 'landing-content',
         data() {
             return {
