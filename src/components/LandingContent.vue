@@ -26,7 +26,8 @@
             </div>
             <div class="container">
                 <div class="columns landing-card-columns">
-                    <div class="column is-one-third">
+                    <div class="column is-one-third" data-aos="fade-up"
+                         data-aos-once="false">
                         <div class="card">
                             <div class="card-content card-content-1 has-text-white-ter has-text-centered">
                                 <img src="../assets/slide/slide-bottom-01.png" alt="professional-teachers"
@@ -44,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column is-one-third">
+                    <div class="column is-one-third" data-aos="fade-up">
                         <div class="card">
                             <div class="card-content card-content-2 has-text-white-ter has-text-centered">
                                 <img src="../assets/slide/slide-bottom-02.png" alt="learn-anywhere-online"
@@ -61,7 +62,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column is-one-third">
+                    <div class="column is-one-third" data-aos="fade-up">
                         <div class="card">
                             <div class="card-content card-content-3 has-text-white-ter has-text-centered">
                                 <img src="../assets/slide/slide-bottom-03.png" alt="graducation-certificate"
@@ -82,9 +83,45 @@
             </div>
         </div>
         <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <iframe width="450" height="300"
+                            src="https://www.youtube.com/embed/_P8ZG7fWp7A"
+                            frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="column">
+                    <p class="is-size-3 has-text-centered">Sed quis justo.</p>
+                    <p class="mt-1" style="font-size:.8rem;text-align:justify">Ut bibendum, sapien ac tristique
+                        venenatis, tellus sem
+                        tempor arcu, faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at,
+                        gravida eget erat.
+                        Morbi feugiat vel lorem eget malesuada. Curabitur eget vulputate risus. Phasellus faucibus
+                        sagittis
+                        efficitur. Pellentesque faucibus libero in nibh elementum elementum. Nullam ultricies tellus
+                        eget purus
+                        feugiat, vitae posuere velit accumsan. Nunc placerat venenatis ullamcorper. Ut imperdiet
+                        imperdiet velit. In
+                        odio sem, placerat non mattis at, aliquet sed velit. Maecenas bibendum neque vitae lorem
+                        laoreet, sed
+                        ornare diam suscipit. Aliquam erat volutpat. Cras malesuada nunc et tincidunt accumsan. Quisque
+                        consequat
+                        sit amet odio sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan.
+                        Phasellus sed
+                        pellentesque turpis.</p>
+                </div>
+            </div>
             <p class="is-size-3 has-text-centered">Sed quis ligula efficitur, varius felis.
                 Uttellus sem tempor arcu, faucibus commodo ante tellus sed justo.</p>
-            <p class="is-size-6 has-text-centered mt-1">Ut bibendum, sapien ac tristique venenatis, tellus sem tempor arcu,
+            <p class="is-size-6 has-text-centered mt-1" data-aos="fade-up"
+               data-aos-offset="200"
+               data-aos-delay="50"
+               data-aos-duration="1000"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false"
+               data-aos-anchor-placement="top-center">Ut bibendum, sapien ac tristique venenatis, tellus sem tempor
+                arcu,
                 faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at, gravida eget erat.
                 Morbi
                 feugiat vel lorem eget malesuada. Curabitur eget vulputate risus. Phasellus faucibus sagittis efficitur.
