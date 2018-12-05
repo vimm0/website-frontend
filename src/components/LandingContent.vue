@@ -85,13 +85,20 @@
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <iframe width="450" height="300"
-                            src="https://www.youtube.com/embed/_P8ZG7fWp7A"
-                            frameborder="0"
-                            allowfullscreen></iframe>
+
+                    <div class="video-block">
+                        <div id="thumbnail_container"><img src="../assets/about-video.png" id="thumbnail"
+                                                           class="img-responsive" alt=""></div>
+                        <!--<a href="https://www.youtube.com/embed/_P8ZG7fWp7A" class="start-video video"><img-->
+                        <!--src="../assets/play-btn.png" alt=""></a>-->
+                    </div>
+                    <!--<iframe width="450" height="300"-->
+                    <!--src="https://www.youtube.com/embed/_P8ZG7fWp7A"-->
+                    <!--frameborder="0"-->
+                    <!--allowfullscreen></iframe>-->
                 </div>
                 <div class="column">
-                    <p class="is-size-3 has-text-centered">Sed quis justo.</p>
+                    <p class="is-size-3">Sed quis justo.</p>
                     <p class="mt-1" style="font-size:.8rem;text-align:justify">Ut bibendum, sapien ac tristique
                         venenatis, tellus sem
                         tempor arcu, faucibus commodo ante tellus sed justo. In turpis velit, mattis nec vehicula at,
@@ -109,6 +116,10 @@
                         sit amet odio sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan.
                         Phasellus sed
                         pellentesque turpis.</p>
+                    <a class="button is-uppercase mt-1">Read More
+                        &nbsp;<font-awesome-icon icon="coffee"></font-awesome-icon>
+
+                    </a>
                 </div>
             </div>
             <p class="is-size-3 has-text-centered">Sed quis ligula efficitur, varius felis.

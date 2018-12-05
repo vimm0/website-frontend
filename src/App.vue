@@ -52,9 +52,9 @@
         padding: .5rem;
     }
 
-    svg path {
-        fill: #fff;
-    }
+    /*svg path {*/
+        /*fill: #fff;*/
+    /*}*/
 
     .card-content {
         height: 18rem;
