@@ -116,8 +116,9 @@
                         sit amet odio sit amet feugiat. Cras posuere odio quam, venenatis euismod eros laoreet accumsan.
                         Phasellus sed
                         pellentesque turpis.</p>
-                    <a class="button is-uppercase mt-1">Read More
-                        &nbsp;<font-awesome-icon icon="coffee"></font-awesome-icon>
+                    <a class="button is-uppercase mt-1 read-more">Read More
+                        <!--&nbsp;<font-awesome-icon icon="coffee"></font-awesome-icon>-->
+                        &nbsp;<font-awesome-icon icon="long-arrow-alt-right"></font-awesome-icon>
 
                     </a>
                 </div>
@@ -158,5 +159,10 @@
     }
 </script>
 <style lang="scss">
-
+    a.read-more {
+        border: 0;
+    }
+    a.read-more:hover {
+        color: #3273dc;
+    }
 </style>

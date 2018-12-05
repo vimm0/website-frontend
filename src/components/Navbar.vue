@@ -3,7 +3,7 @@
         <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
                 <!--brand image-->
-                <h1>Brand</h1>
+                <h1 class="navbar-brand-custom">Brand</h1>
             </a>
             <a role="button" class="navbar-burger burger" :class="{'is-active': isActive}" aria-label="menu"
                aria-expanded="false"
@@ -19,7 +19,6 @@
                 <a class="navbar-item navbar-custom-item">
                     Home
                 </a>
-
                 <a class="navbar-item navbar-custom-item">
                     Gallery
                 </a>
@@ -48,20 +47,10 @@
                         </a>
                     </div>
                 </div>
+                <div class="navbar-item">
+                    <font-awesome-icon icon="search"></font-awesome-icon>
+                </div>
             </div>
-
-            <!--<div class="navbar-end">-->
-            <!--<div class="navbar-item">-->
-            <!--<div class="buttons">-->
-            <!--<a class="button is-primary">-->
-            <!--<strong>Sign up</strong>-->
-            <!--</a>-->
-            <!--<a class="button is-light">-->
-            <!--Log in-->
-            <!--</a>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
         </div>
     </nav>
 </template>
@@ -76,7 +65,58 @@
     }
 </script>
 <style lang="scss">
+    nav {
+        margin-top: .5rem;
+    }
+
     .navbar-end {
         padding-right: 3.2rem;
+    }
+
+    div.navbar-item, a.navbar-item, a.navbar-custom-item, a.navbar-link {
+        display: inline-block;
+        background-color: transparent;
+    }
+
+    h1.navbar-brand-custom, a.navbar-custom-item, a.navbar-link {
+        /*color: #333 !important;*/
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .navbar-custom-item::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #3273dc;
+        transition: width .3s;
+    }
+
+    .navbar-custom-item:hover::after {
+        width: 100%;
+    }
+
+    a.navbar-link {
+        background-color: transparent !important;
+    }
+
+    a.navbar-link:hover, a.navbar-item:hover {
+        background-color: transparent !important;
+        color: #3273dc !important;
+    }
+
+    .navbar-link:not(.is-arrowless)::after {
+        border-color: #333 !important;
+    }
+
+    .navbar-link:not(.is-arrowless):hover::after {
+        border-color: #3273dc !important;
+    }
+
+    .navbar-dropdown > .navbar-item {
+        /*font-size: 0.5rem;*/
     }
 </style>
