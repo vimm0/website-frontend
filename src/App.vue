@@ -30,16 +30,23 @@
         position: relative;
     }
 
+    .content-over > * {
+        position: absolute !important;
+    }
+
     p.title-text-over {
-        position: absolute;
         top: .2rem;
         padding-left: 2rem
     }
 
     p.content-text-over {
-        position: absolute;
         top: 4rem;
         padding: 2rem 2rem;
+    }
+
+    .content-over-read-more {
+        top: 9rem;
+        right: .5rem;
     }
 
     div.share-links {
@@ -52,19 +59,22 @@
         padding: .5rem;
     }
 
-    /*svg path {*/
+    /*svg.social-media path {*/
         /*fill: #fff;*/
     /*}*/
 
     .card-content {
         height: 18rem;
         box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+
         &-1 {
             background: #4886ff !important;
         }
+
         &-2 {
             background: #b5d56a !important;
         }
+
         &-3 {
             background: #ff6f6f !important;
         }
