@@ -23,11 +23,11 @@
         <div class="container main-menu">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <router-link to="/"><img src="img/logo.png" alt="" title=""/></router-link>
+                    <router-link :to="{name: 'Home'}"><img src="img/logo.png" alt="" title=""/></router-link>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li><router-link to="/">Home</router-link></li>
+                        <li><router-link :to="{name: 'Home'}">Home</router-link></li>
                         <li><router-link to="/about">About</router-link></li>
                         <li><router-link to="/courses">Courses</router-link></li>
                         <li><router-link to="/events">Events</router-link></li>
@@ -35,20 +35,20 @@
                         <li class="menu-has-children"><router-link to="#">Blog</router-link>
                             <ul>
                                 <li><router-link to="/blog-home">Blog Home</router-link></li>
-                                <li><router-link to="/blog-single">Blog Single</router-link></li>
+                                <li><router-link to="/blog-detail">Blog Detail</router-link></li>
                             </ul>
                         </li>
                         <li class="menu-has-children"><router-link to="#">Pages</router-link>
                             <ul>
-                                <li><router-link to="course-details">Course Details</router-link></li>
-                                <li><router-link to="event-details">Event Details</router-link></li>
-                                <li><router-link to="elements">Elements</router-link></li>
-                                <li class="menu-has-children"><router-link to="#">Level 2 </router-link>
-                                    <ul>
-                                        <li><router-link to="#">Item One</router-link></li>
-                                        <li><router-link to="#">Item Two</router-link></li>
-                                    </ul>
-                                </li>
+                                <li><router-link to="/course-detail">Course Detail</router-link></li>
+                                <li><router-link to="/event-detail">Event Detail</router-link></li>
+                                <!--<li><router-link to="/elements">Elements</router-link></li>-->
+                                <!--<li class="menu-has-children"><router-link to="#">Level 2 </router-link>-->
+                                    <!--<ul>-->
+                                        <!--<li><router-link to="#">Item One</router-link></li>-->
+                                        <!--<li><router-link to="#">Item Two</router-link></li>-->
+                                    <!--</ul>-->
+                                <!--</li>-->
                             </ul>
                         </li>
                         <li><router-link to="contact.html">Contact</router-link></li>

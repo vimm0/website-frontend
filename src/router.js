@@ -3,9 +3,12 @@ import Router from 'vue-router'
 
 import LandingContent from './components/LandingContent.vue'
 import About from './components/About.vue'
-import Blog from './components/Blog.vue'
-import Courses from './components/Courses.vue'
-import Events from './components/Events.vue'
+import Blog from './components/Blog/Blog.vue'
+import BlogDetail from './components/Blog/BlogDetail.vue'
+import Courses from './components/Course/Courses.vue'
+import CourseDetail from './components/Course/CourseDetail.vue'
+import Events from './components/Event/Events.vue'
+import EventDetail from './components/Event/EventDetail.vue'
 import Gallery from './components/Gallery.vue'
 
 Vue.use(Router)
@@ -15,6 +18,7 @@ const router = new Router({
     routes: [
         {
             path: '/',
+            name: 'Home',
             component: LandingContent,
         },
         {
@@ -34,12 +38,20 @@ const router = new Router({
             component: Gallery,
         },
         {
-            path: '/blog',
+            path: '/blog-home',
             component: Blog,
         },
         {
-            path: '/pages',
-            component: About,
+            path: '/blog-detail',
+            component: BlogDetail,
+        },
+        {
+            path: '/course-detail',
+            component: CourseDetail,
+        },
+        {
+            path: '/event-detail',
+            component: EventDetail,
         }
     ]
 })
