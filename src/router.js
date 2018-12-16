@@ -10,6 +10,7 @@ import CourseDetail from './components/Course/CourseDetail.vue'
 import Events from './components/Event/Events.vue'
 import EventDetail from './components/Event/EventDetail.vue'
 import Gallery from './components/Gallery.vue'
+import Contact from './components/Contact.vue'
 
 Vue.use(Router)
 
@@ -52,6 +53,10 @@ const router = new Router({
         {
             path: '/event-detail',
             component: EventDetail,
+        },
+        {
+            path: '/contact',
+            component: Contact,
         }
     ]
 })
