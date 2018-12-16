@@ -23,11 +23,11 @@
         <div class="container main-menu">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <router-link :to="{name: 'Home'}"><img src="img/logo.png" alt="" title=""/></router-link>
+                    <a href="/"><img src="img/logo.png" alt="" title=""/></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li><router-link :to="{name: 'Home'}">Home</router-link></li>
+                        <li><a href="/">Home</a></li>
                         <li><router-link to="/about">About</router-link></li>
                         <li><router-link to="/courses">Courses</router-link></li>
                         <li><router-link to="/events">Events</router-link></li>
