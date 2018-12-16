@@ -1,14 +1,14 @@
 <template>
     <div id="app">
         <navbar></navbar>
-        <landing-content></landing-content>
+        <router-view></router-view>
         <page-footer></page-footer>
     </div>
 </template>
 
 <script>
     import Navbar from './components/Navbar.vue'
-    import LandingContent from './components/LandingContent.vue'
+    // import LandingContent from './components/LandingContent.vue'
     import Footer from './components/Footer.vue'
 
     import axios from 'axios'
@@ -17,7 +17,7 @@
         name: 'app',
         components: {
             Navbar,
-            LandingContent,
+            // LandingContent,
             'page-footer': Footer
         },
         created() {

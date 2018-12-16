@@ -9100,6 +9100,11 @@ vue-meta@^1.5.6:
     lodash.isplainobject "^4.0.6"
     object-assign "^4.1.1"
 
+vue-router@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.2.tgz#dedc67afe6c4e2bc25682c8b1c2a8c0d7c7e56be"
+  integrity sha512-opKtsxjp9eOcFWdp6xLQPLmRGgfM932Tl56U9chYTnoWqKxQ8M20N7AkdEbM5beUh6wICoFGYugAX9vQjyJLFg==
+
 vue-script-component@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/vue-script-component/-/vue-script-component-0.1.7.tgz#c322bd01722c6487aac892cb4f6a7bc976ca664f"
