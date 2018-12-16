@@ -1,5 +1,5 @@
 <template>
-    <header id="header home">
+    <header id="header">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -70,57 +70,57 @@
 </script>
 <style lang="scss">
     /*nav {*/
-        /*margin-top: .5rem;*/
+    /*margin-top: .5rem;*/
     /*}*/
 
     /*.navbar-end {*/
-        /*padding-right: 3.2rem;*/
+    /*padding-right: 3.2rem;*/
     /*}*/
 
     /*div.navbar-item, a.navbar-item, a.navbar-custom-item, a.navbar-link {*/
-        /*display: inline-block;*/
-        /*background-color: transparent;*/
+    /*display: inline-block;*/
+    /*background-color: transparent;*/
     /*}*/
 
     /*h1.navbar-brand-custom, a.navbar-custom-item, a.navbar-link {*/
-        /*!*color: #333 !important;*!*/
-        /*font-family: "Open Sans", sans-serif;*/
-        /*font-weight: 600;*/
-        /*text-transform: uppercase;*/
-        /*font-size: 14px;*/
+    /*!*color: #333 !important;*!*/
+    /*font-family: "Open Sans", sans-serif;*/
+    /*font-weight: 600;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 14px;*/
     /*}*/
 
     /*.navbar-custom-item::after {*/
-        /*content: '';*/
-        /*display: block;*/
-        /*width: 0;*/
-        /*height: 2px;*/
-        /*background: #3273dc;*/
-        /*transition: width .3s;*/
+    /*content: '';*/
+    /*display: block;*/
+    /*width: 0;*/
+    /*height: 2px;*/
+    /*background: #3273dc;*/
+    /*transition: width .3s;*/
     /*}*/
 
     /*.navbar-custom-item:hover::after {*/
-        /*width: 100%;*/
+    /*width: 100%;*/
     /*}*/
 
     /*a.navbar-link {*/
-        /*background-color: transparent !important;*/
+    /*background-color: transparent !important;*/
     /*}*/
 
     /*a.navbar-link:hover, a.navbar-item:hover {*/
-        /*background-color: transparent !important;*/
-        /*color: #3273dc !important;*/
+    /*background-color: transparent !important;*/
+    /*color: #3273dc !important;*/
     /*}*/
 
     /*.navbar-link:not(.is-arrowless)::after {*/
-        /*border-color: #333 !important;*/
+    /*border-color: #333 !important;*/
     /*}*/
 
     /*.navbar-link:not(.is-arrowless):hover::after {*/
-        /*border-color: #3273dc !important;*/
+    /*border-color: #3273dc !important;*/
     /*}*/
 
     /*.navbar-dropdown > .navbar-item {*/
-        /*!*font-size: 0.5rem;*!*/
+    /*!*font-size: 0.5rem;*!*/
     /*}*/
 </style>

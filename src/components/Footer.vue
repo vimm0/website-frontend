@@ -1,56 +1,90 @@
 <template>
-    <footer class="footer">
-        <div class="columns">
-            <div class="column is-one-fifth">
-                <p class="is-size-5">Brand</p>
-                <p class="brand-quote">We are Educatios, creat your passion and inspiration. And hope success
-                    will come for your dream.
-                    Please send email and get latest news.</p>
-                <div class="address mt-1">
-                    <p class="is-size-7">0123-456-789</p>
-                    <p class="is-size-7">hello@education.com</p>
-                    <p class="is-size-7">01 Central Park, NPJ</p>
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Top Products</h4>
+                        <ul>
+                            <li><a href="#">Managed Website</a></li>
+                            <li><a href="#">Manage Reputation</a></li>
+                            <li><a href="#">Power Tools</a></li>
+                            <li><a href="#">Marketing Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Quick links</h4>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Features</h4>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Experts</a></li>
+                            <li><a href="#">Agencies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>Stay update with our latest</p>
+                        <div class="" id="mc_embed_signup">
+                            <!--<form target="_blank"-->
+                            <!--action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"-->
+                            <!--method="get">-->
+                            <!--<div class="input-group">-->
+                            <!--<input class="form-control" name="EMAIL"-->
+                            <!--placeholder="Enter Email Address" onfocus="this.placeholder = ''"-->
+                            <!--onblur="this.placeholder = 'Enter Email Address '" required=""-->
+                            <!--type="email">-->
+                            <!--<div class="input-group-btn">-->
+                            <!--<button class="btn btn-default" type="submit">-->
+                            <!--<span class="lnr lnr-arrow-right"></span>-->
+                            <!--</button>-->
+                            <!--</div>-->
+                            <!--<div class="info"></div>-->
+                            <!--</div>-->
+                            <!--</form>-->
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="column is-one-fifth">
-                <p class="is-size-5">Courses</p>
-                <ul class="footer-links">
-                    <li>Web Design</li>
-                    <li>Apps Developer</li>
-                    <li>Graphic Design</li>
-                    <li>Php Training</li>
-                    <li>IOS Developer</li>
-                    <li>App Design</li>
-                </ul>
-            </div>
-            <div class="column is-one-fifth">
-                <p class="is-size-5">Links</p>
-                <ul class="footer-links">
-                    <li>About Us</li>
-                    <li>Teacher</li>
-                    <li>Blog</li>
-                    <li>Events</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="column is-one-fifth">
-                <p class="is-size-5">Support</p>
-                <ul class="footer-links">
-                    <li>Documentation</li>
-                    <li>Froums</li>
-                    <li>Language Packs</li>
-                    <li>Release Status</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="column is-one-fifth">
-                <p class="is-size-5">Get in touch</p>
-                <p class="email-content">Enter your email and we'll send you more information</p>
-                <input class="email-input" placeholder="Your Email" required>
-                <br>
-                <a class="button is-info mt-1 subscribe-button">Subscribe</a>
+            <div class="footer-bottom row align-items-center justify-content-between">
+                <p class="footer-text m-0 col-lg-6 col-md-12">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <!--Copyright &copy;<script>document.write(new Date().getFullYear());</script>-->
+                    <!--All rights reserved | This template is made with <i class="fa fa-heart-o"-->
+                    <!--aria-hidden="true"></i> by <a-->
+                    <!--href="https://colorlib.com" target="_blank">Colorlib</a>-->
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <div class="col-lg-6 col-sm-12 footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-behance"></i></a>
+                </div>
             </div>
         </div>
     </footer>
@@ -64,53 +98,5 @@
     }
 </script>
 <style lang="scss">
-    .brand-quote, .email-content {
-        font-family: "Open Sans", sans-serif;
-        font-size: 0.8rem;
-        padding-bottom: 10px;
-        color: #a0a0a0;
-    }
 
-    ul > li {
-        font-size: 0.8rem;
-        line-height: 1.8rem;
-        color: #a0a0a0;
-    }
-
-    ul.footer-links {
-        margin-top: -0.255rem;
-    }
-
-    div.address > * {
-        /*color: #a0a0a0;*/
-        line-height: 1.4rem;
-        font-size: 0.8rem;
-        font-weight: bold;
-    }
-
-    .subscribe-button {
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2) !important;
-    }
-
-    .email-input {
-        background: #e6e6e6;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-        height: 45px;
-        font-size: 16px;
-        border: none;
-        color: #a0a0a0;
-        padding-left: 15px;
-        width: 100%;
-        margin-bottom: 15px;
-        outline: none;
-    }
-
-    .footer {
-        /*margin: 0 auto;*/
-        /*width: 100%;*/
-        /*height: auto;*/
-        /*overflow: hidden;*/
-        /*position: relative;*/
-        /*bottom: 0;*/
-    }
 </style>
