@@ -51,8 +51,8 @@
                                 <ul class="focials">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                                    <!--<li><a href="#"><i class="fa fa-behance"></i></a></li>-->
                                 </ul>
                             </div>
                             <div class="col-lg-6 col-md-6 navs">
@@ -101,7 +101,7 @@
                             <ul class="mt-10">
                                 <li class="justify-content-between d-flex">
                                     <span>Company</span>
-                                    <span>Colorlib</span>
+                                    <span>Nepex Group</span>
                                 </li>
                                 <li class="justify-content-between d-flex">
                                     <span>Street</span>
